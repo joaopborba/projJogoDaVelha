@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+    <label for="player1">Nome do jogador 1 - X:</label>
+    <input type="text" name="player1" id="player1">
+    <label for="player2"> - Nome do jogador 2 - O:</label>
+    <input type="text" name="player2" id="player2">
+    <br><br>
+    <button id="play">Jogar</button>
+    <hr>
+    <h3>A vez do jogador: <span id="playerTurn"></span></h3>
+    
+    <br><br><br>
+    <div id="board">
+        <span data-region="1"></span>
+        <span data-region="2"></span>
+        <span data-region="3"></span>
+        <span data-region="4"></span>
+        <span data-region="5"></span>
+        <span data-region="6"></span>
+        <span data-region="7"></span>
+        <span data-region="8"></span>
+        <span data-region="9"></span>
+    </div>
+</body>
+</html>
